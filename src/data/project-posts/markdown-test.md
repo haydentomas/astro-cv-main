@@ -2,7 +2,7 @@
 title: Markdown Test Page Projects
 publishDate: 01 Dec 2021
 description: A sample page with the most common elements of an article.
-thumbnail: '/assets/blog/batman.jpg'
+thumbnail: '/assets/blog/batman.webp'
 icons:
   - icon--javascript
   - icon--twitter

@@ -273,3 +273,9 @@ input[name='theme-toggle'] {
     margin: 1em 0;
   }
 }
+
+
+svg.iconset {
+ color:red !important;
+ fill:red;
+}
