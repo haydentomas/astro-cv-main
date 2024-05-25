@@ -14,6 +14,44 @@
   --primary-color: #548e9b;
 }
 
+
+:root.theme-dark .prose {
+  --tw-prose-body: #ffffff;
+  --tw-prose-headings: #ffffff;
+  --tw-prose-lead: #ffffff;
+  --tw-prose-links: #ffffff;
+  --tw-prose-bold: #ffffff;
+  --tw-prose-counters: #ffffff;
+  --tw-prose-bullets: #ffffff;
+  --tw-prose-hr: #ffffff;
+  --tw-prose-quotes: #ffffff;
+  --tw-prose-quote-borders: #ffffff;
+  --tw-prose-captions: #ffffff;
+  --tw-prose-code: #ffffff;
+  --tw-prose-pre-code:#ffffff;
+  --tw-prose-th-borders: #ffffff;
+  --tw-prose-td-borders: #ffffff;
+}
+
+
+:root .prose {
+  --tw-prose-body: #36393b;
+  --tw-prose-headings: #36393b;
+  --tw-prose-lead: #36393b;
+  --tw-prose-links: #36393b;
+  --tw-prose-bold: #36393b;
+  --tw-prose-counters: #36393b;
+  --tw-prose-bullets: #36393b;
+  --tw-prose-hr: #36393b;
+  --tw-prose-quotes: #36393b;
+  --tw-prose-quote-borders:#36393b;
+  --tw-prose-captions: #36393b;
+  --tw-prose-code: #36393b;
+  --tw-prose-pre-code:#36393b;
+  --tw-prose-th-borders: #36393b;
+  --tw-prose-td-borders: #36393b;
+}
+
 html {
   overflow-y: scroll;
 }
@@ -275,7 +313,3 @@ input[name='theme-toggle'] {
 }
 
 
-svg.iconset {
- color:red !important;
- fill:red;
-}
