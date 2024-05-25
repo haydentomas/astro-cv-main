@@ -60,11 +60,6 @@ The website was built with a responsive design, ensuring it looked fabulous on a
 
 - Final Website Design: Visit Full Wax @ www.fullwax.com
 
-**Key Features:** 
-
-- A "Llama Cam" live stream of the lounge's pastures
-- A "Herd Booking" discount for groups of llamas
-- A "Llama Lingo" dictionary of essential llama phrases
 
 **Performance Metrics:**
 
@@ -75,7 +70,6 @@ The website was built with a responsive design, ensuring it looked fabulous on a
 
 Summary of Success: The Full Wax website is now a haven for llama lovers, providing a seamless booking experience and showcasing the unique charm of this quirky establishment.
 Lessons Learned: Llamas appreciate good web design just as much as humans do.
-Future Recommendations: A llama-themed mobile app could be the next step in enhancing the guest experience.
-Call to Action
+Future Recommendations: A Full Wax online booking system could be the next step in enhancing the guest experience.
 
-Ready to create a website that's as unique as your business? Contact us today and let's get this show on the road
+**Ready to create a website that's as unique as your business? Contact us today and let's get this show on the road**
