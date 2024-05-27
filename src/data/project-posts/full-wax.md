@@ -18,7 +18,7 @@ boxes:
     text: The Full Wax services the aviation industry, specifically cleaning and detailing.
   - title: Challenge
     text: The Full Wax's existing website was outdated, difficult to navigate, and failed to capture the brand identity of this established business.
-  image: /assets/projects/fullwax-main.webp
+  image: /assets/projects/full-wax-1.webp
 
 - intro: Objectives
   content:
@@ -28,7 +28,7 @@ boxes:
     text: Create a user-friendly experience that makes it easy visitors to navigate.
   - title: Get listed
     text: Get the business listed for key search terms in Google and other relevant search engines.
-  image: /assets/projects/full-wax-2.webp
+  image: /assets/projects/objectives.webp
 
 - intro: Discovery and Planning
   content:
@@ -38,7 +38,7 @@ boxes:
     text: We discovered a surprising lack of competition in the aviation detailing industry.
   - title: Target Audience
     text: The Full Wax detail aircraft for clients all over the world, it is a mix of private clients and corporate clients.
-  image: /assets/projects/full-wax-3.webp
+  image: /assets/projects/discovery-and-planning.webp
 
 - intro: Project Scope
   content:
@@ -48,7 +48,7 @@ boxes:
     text: Content goes here
   - title: Security
     text: I use Patchstack for all my WordPress clients.
-  image: /assets/blog/phone-3d.webp
+  image: /assets/projects/scope.webp
 
 - intro: Technology Stack
   content:
@@ -68,7 +68,7 @@ boxes:
   - title: Development Process
     text: The website was built with a responsive design, ensuring it looked fabulous on all devices, from desktop computers to tablets.
   - title: Outcome and Results
-    text: A vey happy client which has stayed with me for many years
+    text: A very happy client which has stayed with me for many years.
   image: /assets/blog/computers-3d.webp
 
 ---
