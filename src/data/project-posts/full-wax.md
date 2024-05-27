@@ -2,7 +2,7 @@
 title: Full Wax - WordPress Development
 publishDate: 25 May 2025
 description: Aircraft Detailing company in Farnborough Airport needed a boost.
-thumbnail: '/assets/blog/batman.webp'
+thumbnail: '/assets/projects/fw-feed.webp'
 icons:
   - javascript
   - speed
@@ -43,11 +43,11 @@ boxes:
 - intro: Project Scope
   content:
   - title: Custom website design and development.
-    text: Content goes here
+    text: The website was developed in WordPress using Beaver Builder (it needs a revamp!) in order to allow the client to manage the website themselves.
   - title: Content creation.
-    text: Content goes here
+    text: The content was created in collaboration with the client to ensure the right message was delivered to the right people.
   - title: Security
-    text: I use Patchstack for all my WordPress clients.
+    text: When building in WordPress, I favour patchstack for my clients as it provides a rock solid security solution which in my opinion is unmatched in the industry.
   image: /assets/projects/scope.webp
 
 - intro: Technology Stack
