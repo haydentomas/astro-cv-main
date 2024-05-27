@@ -13,12 +13,12 @@ boxes:
 - intro: Introduction
   content:
   - title: Client
-    text: The Full Wax, an aircraft detailing company based in Farnborough Airport
+    text: The Full Wax, an aircraft detailing company based in Farnborough Airport.
   - title: Industry
-    text: The Full Wax services the aviation industry, specifically cleaning and detailing
+    text: The Full Wax services the aviation industry, specifically cleaning and detailing.
   - title: Challenge
-    text: The Full Wax's existing website was outdated, difficult to navigate, and failed to capture the brand identity of this established business
-  image: /assets/blog/computers-3d.webp
+    text: The Full Wax's existing website was outdated, difficult to navigate, and failed to capture the brand identity of this established business.
+  image: /assets/projects/fullwax-main.webp
 
 - intro: Objectives
   content:
@@ -28,19 +28,17 @@ boxes:
     text: Create a user-friendly experience that makes it easy visitors to navigate.
   - title: Get listed
     text: Get the business listed for key search terms in Google and other relevant search engines.
-  image: /assets/blog/phone-3d.webp
+  image: /assets/projects/full-wax-2.webp
 
 - intro: Discovery and Planning
   content:
   - title: Client Consultation
     text: We spent a delightful afternoon with the company directors having a brainstorm and learning about the business.
   - title: Competitor Analysis
-    text: We discovered a surprising lack of competition in the luxury llama accommodation market.
+    text: We discovered a surprising lack of competition in the aviation detailing industry.
   - title: Target Audience
     text: The Full Wax detail aircraft for clients all over the world, it is a mix of private clients and corporate clients.
-  - title: testing the loop
-    text: just a basic loop test
-  image: /assets/blog/phone-3d.webp
+  image: /assets/projects/full-wax-3.webp
 
 - intro: Project Scope
   content:
@@ -55,7 +53,7 @@ boxes:
 - intro: Technology Stack
   content:
   - title: CMS
-    text: WordPress, for easy content updates.
+    text: WordPress was selected for its ease of use and budget constraints. We used a page builder (Beaver )
   - title: Front and Backend Tech stack
     text: HTML, CSS, JavaScript with a sprinkle of PHP
   - title: Hosting title test
@@ -63,23 +61,24 @@ boxes:
   image: /assets/blog/computers-3d.webp
 
 
-- intro: Verdict
-  content:
+- intro: The short version
+  content: 
   - title: Design Approach
     text: The design focused on a dark theme which matched the brand identity.
   - title: Development Process
     text: The website was built with a responsive design, ensuring it looked fabulous on all devices, from desktop computers to tablets.
   - title: Outcome and Results
-    text: A vey happy client which has stayed with me for many years!
+    text: A vey happy client which has stayed with me for many years
   image: /assets/blog/computers-3d.webp
 
 ---
 
 
-**Conclusion**
+
+# Conclusion
 
 Summary of Success: The Full Wax website is now a haven for llama lovers, providing a seamless booking experience and showcasing the unique charm of this quirky establishment.
 Lessons Learned: Llamas appreciate good web design just as much as humans do.
 Future Recommendations: A Full Wax online booking system could be the next step in enhancing the guest experience.
 
-**Ready to create a website that's as unique as your business? Contact us today and let's get this show on the road**
+
