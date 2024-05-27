@@ -17,7 +17,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
     <div class="grid gap-x-8 gap-y-12 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
       {allPosts.map((post, index) => {
         const href = `/projects/${post.file.split('/').pop().split('.').shift()}`;
-        const thumbnail = post.frontmatter.thumbnail; // Assuming there's a "thumbnail" property in frontmatter
+        const thumbnail = post.frontmatter.thumbnail;
         const icons = post.frontmatter.icons || []; 
         return (
           <div class="relative shadow-md p-5 bg-zinc-900 rounded-md">
@@ -44,7 +44,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
               <a href={href} class="text-white hover:text-white font-medium underline">Read More</a>
             </div>
             {icons.length > 0 && ( 
-        <ul class="flex absolute top-0 pt-0 mt-0 right-0 bg-slate-900 opacity-1"> {}
+        <ul class="flex absolute top-0  mt-0   pl-2 pr-5 right-0 gap-3 opacity-1 bg-slate-900 opacity-1"> {}
           {icons.map((icon, iconIndex) => (
             <li>
               <img

@@ -11,7 +11,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://astro-blog-template.netlify.app',
-  integrations: [mdx(), svelte(), tailwind(), icon() ],
+  integrations: [mdx(), svelte(), tailwind(), icon(),mdx() ],
   markdown: {
     shikiConfig: {
       theme: 'nord'
