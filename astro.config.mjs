@@ -5,13 +5,15 @@ import remarkGfm from 'remark-gfm';
 import remarkSmartypants from 'remark-smartypants';
 import rehypeExternalLinks from 'rehype-external-links';
 import icon from "astro-icon";
-
 import tailwind from "@astrojs/tailwind";
+import partytown from "@astrojs/partytown";
+
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-blog-template.netlify.app',
-  integrations: [mdx(), svelte(), tailwind(), icon(),mdx() ],
+  site: 'https://haydentomas.co.uk',
+  integrations: [mdx(), svelte(), tailwind(), icon(), mdx(), partytown(), sitemap()],
   markdown: {
     shikiConfig: {
       theme: 'nord'

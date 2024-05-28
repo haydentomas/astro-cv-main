@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://haydentomas.co.uk/sitemap-index.xml
