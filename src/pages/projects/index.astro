@@ -1,5 +1,5 @@
 ---
-import BaseLayout from '../../layouts/BaseLayoutNoProse.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import { Image } from 'astro:assets';
 
 const title = 'Projects';
@@ -12,9 +12,9 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 ---
 
 <BaseLayout title={title} description={description} permalink={permalink} current="projects">
-  <div class="container">
-    <h1>Projects</h1>
-    <div class="grid gap-x-8 gap-y-12 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
+
+  <h1 class="sm:text-7xl">Projects</h1>
+    <div class="not-prose grid gap-x-8 gap-y-12 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
       {allPosts.map((post, index) => {
         const href = `/projects/${post.file.split('/').pop().split('.').shift()}`;
         const thumbnail = post.frontmatter.thumbnail;
@@ -60,7 +60,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
   );
 })}
       </div>
-  </div>
+  
 </BaseLayout>
 
 
