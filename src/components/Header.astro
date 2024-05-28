@@ -1,21 +1,24 @@
 ---
 import Logo from './Logo.astro'
 import Nav from './Nav.astro'
-
+import Button from '../components/Button.astro';
 const { current = '' } = Astro.props;
 ---
 
-<style>
-  header {
-    display: flex;
-    margin: 0 auto;
-    max-width: 1400px;
-    padding: 2em;
-    width: 100%;
-  }
-</style>
 
-<header>
-  <Logo />
-  <Nav current={current} />
-</header>
+
+
+
+
+<section class="w-full px-8">
+    <div class="flex flex-col flex-wrap items-center justify-between py-6 mx-auto md:flex-row">
+        <div class="relative flex flex-col md:flex-row">
+          <Logo />
+        </div>
+
+        <div class="inline-flex flex-col items-center sm:flex-row sm:ml-5 lg:justify-end">
+          <Nav current={current} />
+          <Button aria="Download CV" href="/Assets/Hayden-Tomas-CV.pdf" target="_blank">Download CV</Button>
+        </div>
+    </div>
+</section>
