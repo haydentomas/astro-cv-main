@@ -1,19 +1,192 @@
-<footer>
-  <span>
-    &copy; {new Date().getFullYear()} Hayden Tomas.
-    Powered by <a href="https://astro.build" target="_blank" rel="noopener">Astro</a>.
 
-  </span>
+---
+
+---
+
+
+
+
+<!-- Footer -->
+<footer class="pt-20 pb-8 overflow-hidden bg-slate-900 sm:pt-24 sm:pb-12 lg:pt-32"
+>
+<!-- Container -->
+<div class="container">
+  <!-- Call to action -->
+  <div
+    class="grid items-center max-w-xl gap-5 mx-auto lg:mx-0 lg:max-w-none lg:grid-cols-12 lg:gap-12 xl:gap-20"
+  >
+    <div class="lg:col-span-7">
+      <h3
+        class="text-4xl font-semibold text-center text-white font-display sm:text-5xl lg:max-w-xl lg:text-left"
+      >
+        Lets build something great together.
+      </h3>
+      <div class="hidden lg:block">
+        <!-- Call to action button for large screens -->
+        <a
+          href="/contact"
+          class="mt-2 border-solid border-1 bg-white text-slate-700 hover:text-white hover:bg-slate-700 inline-flex items-center rounded-full gap-2.5 justify-center px-7 py-3 text-md font-semibold leading-none outline-offset-2 transition-all duration-200 ease-in-out active:transition-none"
+        >
+          Contact me
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="w-5 h-5"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      class="flex flex-col items-center lg:col-span-5 lg:items-start"
+    >
+      <p
+        class="mt-0  text-lg text-center text-slate-50 lg:max-w-sm lg:text-left"
+      >
+       I am ready to help you with your next project. Lets have a chat and see how we can work together.
+      </p>
+
+      <!-- Call to action button for small screens -->
+      <a
+        href="/contact"
+        class="mt-10 inline-flex items-center justify-center gap-x-2.5 rounded-full bg-white py-3 px-7 text-md font-semibold leading-none text-slate-700 duration-200 ease-in-out hover:bg-sky-50 lg:hidden"
+      >
+        Contact me
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-5 h-5"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </a>
+
+      <!-- Social links -->
+      <div
+        class="mt-16 grid w-full max-w-sm grid-cols-2 gap-3.5 sm:max-w-none sm:grid-cols-3 lg:mt-8 lg:gap-2.5 xl:gap-3.5"
+      >
+      
+
+      
+
+
+      
+
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/in/haydentomas/" target="blank"
+          class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="16"
+            viewBox="0 0 18 16"
+            fill="currentColor"
+            class="w-4 h-4 duration-200 ease-in-out shrink-0 text-slate-200 group-hover:fill-slate-100"
+          >
+            <path
+              d="M16.5128 0H0.717949C0.287179 0 0 0.266667 0 0.666667V15.3333C0 15.7333 0.287179 16 0.717949 16H16.5128C16.9436 16 17.2308 15.7333 17.2308 15.3333V0.666667C17.2308 0.266667 16.9436 0 16.5128 0ZM5.09744 13.6667H2.58462V6H5.16923V13.6667H5.09744ZM3.80513 4.93333C3.01538 4.93333 2.29744 4.33333 2.29744 3.53333C2.29744 2.8 2.94359 2.13333 3.80513 2.13333C4.59487 2.13333 5.31282 2.73333 5.31282 3.53333C5.31282 4.33333 4.66667 4.93333 3.80513 4.93333ZM14.7179 13.6667H12.1333V9.93333C12.1333 9.06667 12.1333 7.93333 10.841 7.93333C9.47692 7.93333 9.33333 8.86667 9.33333 9.86667V13.6667H6.74872V6H9.18974V7.06667C9.54872 6.46667 10.3385 5.86667 11.6308 5.86667C14.2154 5.86667 14.7179 7.46667 14.7179 9.53333V13.6667Z"
+            />
+          </svg>
+
+          LinkedIn
+        </a>
+
+        <!-- Github -->
+        <a
+          href="https://github.com/haydentomas" target="blank"
+          class="flex items-center justify-center gap-2.5 rounded-full border border-slate-600/90 py-2.5 text-sm text-slate-50 duration-200 ease-in-out hover:bg-slate-800 hover:text-white lg:gap-2 xl:gap-2.5"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="16"
+            viewBox="0 0 18 16"
+            fill="currentColor"
+            class="w-4 h-4 duration-200 ease-in-out shrink-0 text-slate-200 group-hover:fill-slate-100"
+          >
+            <path
+              d="M16.5128 0H0.717949C0.287179 0 0 0.266667 0 0.666667V15.3333C0 15.7333 0.287179 16 0.717949 16H16.5128C16.9436 16 17.2308 15.7333 17.2308 15.3333V0.666667C17.2308 0.266667 16.9436 0 16.5128 0ZM5.09744 13.6667H2.58462V6H5.16923V13.6667H5.09744ZM3.80513 4.93333C3.01538 4.93333 2.29744 4.33333 2.29744 3.53333C2.29744 2.8 2.94359 2.13333 3.80513 2.13333C4.59487 2.13333 5.31282 2.73333 5.31282 3.53333C5.31282 4.33333 4.66667 4.93333 3.80513 4.93333ZM14.7179 13.6667H12.1333V9.93333C12.1333 9.06667 12.1333 7.93333 10.841 7.93333C9.47692 7.93333 9.33333 8.86667 9.33333 9.86667V13.6667H6.74872V6H9.18974V7.06667C9.54872 6.46667 10.3385 5.86667 11.6308 5.86667C14.2154 5.86667 14.7179 7.46667 14.7179 9.53333V13.6667Z"
+            />
+          </svg>
+
+          Github
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <hr
+    class="w-full h-px mt-12 mb-6 border-slate-600/90 sm:mt-16 sm:mb-10"
+  />
+
+  <!-- Footer links & copyright text -->
+  <div class="flex flex-col items-center justify-between md:flex-row">
+    <!-- Site links -->
+    <div class="flex items-center gap-6">
+      <a
+        href="/privacy/"
+        class="text-base font-medium duration-200 ease-in-out text-slate-100 hover:text-white"
+      >
+        Privacy
+      </a>
+      <a
+        href="/terms/"
+        class="text-base font-medium duration-200 ease-in-out text-slate-100 hover:text-white"
+      >
+        Terms
+      </a>
+    
+      
+    </div>
+
+    <!-- Copyright text -->
+
+    <p class="text-base text-white"> &copy; {new Date().getFullYear()} Hayden Tomas</p>
+  </div>
+</div>
 </footer>
+
+
+
 
 <style>
   footer {
-    color: var(--text-secondary);
-    font-size: .8em;
-    margin: 1em auto;
+    background-color: var(--background-body);
+    padding-top:300px;
+
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3000 1800'%3E%3Cdefs%3E%3Cpath id='a' fill='%23312e81' fill-opacity='.7' d='M4002.8.3C3620.4 14 3647 280.9 3371.4 340.6s-433.8-225-723.3-111.8-339.6 465.3-489.3 557.8c-149.7 92.5-562.5-20.8-728.1 120.4s-111.8 539.2-238.8 700.2-555.5 132.2-679.3 353.4c-123.9 221.2 108.6 547.6 38.2 762.1S48 3037.7 10.9 3286.3s307.8 453.1 316.8 713.7S-60.6 4385.1 8 4698.2s414.7 262.9 537.9 565.7c123.2 302.8-228 480.4-36 771s456.2 107.4 673 347 18.8 538 247.8 711.1c229 173.1 443.6-30.5 728.1 120.4s143.1 452.9 483 555.6 409.8-153.1 715.8-112c306 41.1 329.7 354.2 645.2 342.7s302.7-293.2 631.4-340.3c328.7-47.1 496 198.7 723.3 111.8s343.6-468.3 477.1-550.7c133.6-82.5 566.4 21.2 735.6-123.8 169.2-145 110.8-536.1 243.5-704 132.6-167.8 557.7-136.8 679.3-353.4s-99.6-579.6-38.2-762.1c61.4-182.5 507.3-353.9 539.9-563.6 32.6-209.7-311.2-506.8-316.8-713.7-5.7-206.8 358.7-509.6 319-701.6-39.7-192-470.7-390.9-537.3-562.3-66.6-171.4 163.6-571.8 36-771-127.6-199.2-504.6-179.3-661-345.2s-7-522.6-259.8-712.8-519-4.7-740.2-127.3-197.7-463.1-470.8-548.7-534.7 88.1-719.4 55S4290-10 4002.8.3z' /%3E%3C/defs%3E%3Cg %3E%3Cg transform='translate(-2500 200) scale(1 .4)' stroke='%23FFF' stroke-width='1'%3E%3Cg transform=''%3E%3Cuse href='%23a' y='-100'%3E%3CanimateTransform attributeName='transform' type='rotate' repeatCount='indefinite' dur='52s' begin='-17s' values='0 4000 4000%3B360 4000 4000' %3E%3C/animateTransform%3E%3C/use%3E%3Cuse href='%23a' x='-100' y='150'%3E%3CanimateTransform attributeName='transform' type='rotate' repeatCount='indefinite' begin='-5s' dur='48.3s' values='0 4000 4000%3B360 4000 4000' %3E%3C/animateTransform%3E%3C/use%3E%3Cuse href='%23a' x='50' y='100'%3E%3CanimateTransform attributeName='transform' type='rotate' repeatCount='indefinite' dur='44.7s' values='0 4000 4000%3B360 4000 4000' %3E%3C/animateTransform%3E%3C/use%3E%3Cuse href='%23a' x='100'%3E%3CanimateTransform attributeName='transform' type='rotate' repeatCount='indefinite' begin='-14s' dur='40.9s' values='0 4000 4000%3B360 4000 4000' %3E%3C/animateTransform%3E%3C/use%3E%3CanimateTransform attributeName='transform' type='rotate' repeatCount='indefinite' dur='56s' values='360 4000 4000%3B0 4000 4000'%3E%3C/animateTransform%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+background-size: cover;
+
+
+
+.container {
+
+    flex: 1;
+    position: relative;
+    margin: 0 auto;
     max-width: 1400px;
     padding: 1em 2em;
-    text-align: center;
+    box-sizing: border-box;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+}
   }
+
+
+
 </style>

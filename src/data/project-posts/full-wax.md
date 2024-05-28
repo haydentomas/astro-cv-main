@@ -53,23 +53,12 @@ boxes:
 - intro: Technology Stack
   content:
   - title: CMS
-    text: WordPress was selected for its ease of use and budget constraints. We used a page builder (Beaver )
+    text: WordPress was selected for its ease of use and budget constraints. We used a page builder (Beaver builder)
   - title: Front and Backend Tech stack
-    text: HTML, CSS, JavaScript with a sprinkle of PHP
-  - title: Hosting title test
-    text: Stable and secure hosting on a server that's never had a bad hair day
-  image: /assets/blog/computers-3d.webp
-
-
-- intro: The short version
-  content: 
-  - title: Design Approach
-    text: The design focused on a dark theme which matched the brand identity.
-  - title: Development Process
-    text: The website was built with a responsive design, ensuring it looked fabulous on all devices, from desktop computers to tablets.
-  - title: Outcome and Results
-    text: A very happy client which has stayed with me for many years.
-  image: /assets/blog/computers-3d.webp
+    text: HTML, CSS, JavaScript with a sprinkle of PHP.
+  - title: Premium managed web hosting
+    text: Stable and secure hosting on a server that's never had a bad hair day.
+  image: /assets/projects/fw-tech.webp
 
 ---
 
@@ -77,8 +66,7 @@ boxes:
 
 # Conclusion
 
-Summary of Success: The Full Wax website is now a haven for llama lovers, providing a seamless booking experience and showcasing the unique charm of this quirky establishment.
-Lessons Learned: Llamas appreciate good web design just as much as humans do.
-Future Recommendations: A Full Wax online booking system could be the next step in enhancing the guest experience.
+**Summary of Success:** [The Full Wax](https://www.fullwax.com/) is the #1 Aircraft Detailing Company in Farnborough Airport, this has been reinforced with the addition of the brand new website which has improved efficiency for the company and its customers. Our next step is to increase the traffic to the website, challenge accepted! 
+
 
 
